@@ -3,19 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Clip Launch — YouTube Publishing Automation</title>
-  <meta name="description" content="Clip Launch is a YouTube publishing automation tool for uploading, configuring, and scheduling videos through the YouTube Data API.">
+  <title>Clip Launch</title>
+  <meta name="application-name" content="Clip Launch">
+  <meta name="description" content="Clip Launch is an application that uploads, configures, and schedules videos to a user's own YouTube channel through the YouTube Data API, using Google OAuth 2.0 for authorization.">
   <meta name="theme-color" content="#080a14">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Clip Launch — YouTube Publishing Automation">
-  <meta property="og:description" content="Clip Launch is a YouTube publishing automation tool that helps users upload, configure, and schedule videos through the YouTube Data API.">
+  <meta property="og:site_name" content="Clip Launch">
+  <meta property="og:title" content="Clip Launch">
+  <meta property="og:description" content="Clip Launch is an application that uploads, configures, and schedules videos to a user's own YouTube channel through the YouTube Data API.">
   <meta property="og:url" content="https://cliplaunch.net/">
   <meta property="og:image" content="https://cliplaunch.net/assets/cliplaunch-logo.png">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Clip Launch — YouTube Publishing Automation">
-  <meta name="twitter:description" content="Clip Launch is a YouTube publishing automation tool that helps users upload, configure, and schedule videos through the YouTube Data API.">
+  <meta name="twitter:title" content="Clip Launch">
+  <meta name="twitter:description" content="Clip Launch is an application that uploads, configures, and schedules videos to a user's own YouTube channel through the YouTube Data API.">
+  <link rel="canonical" href="https://cliplaunch.net/">
   <link rel="icon" href="/assets/cliplaunch-logo.png" type="image/png">
   <link rel="stylesheet" href="/assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Clip Launch",
+    "url": "https://cliplaunch.net/",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "Web",
+    "description": "Clip Launch is an application that uploads, configures, and schedules videos to a user's own YouTube channel through the YouTube Data API, using Google OAuth 2.0 for authorization.",
+    "privacyPolicy": "https://cliplaunch.net/privacy/",
+    "termsOfService": "https://cliplaunch.net/terms/"
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -34,17 +50,18 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <p class="eyebrow">YouTube publishing automation tool</p>
-          <h1>Clip Launch<br><span>for YouTube</span><br>publishing.</h1>
+          <p class="eyebrow">Official home page of the Clip Launch application</p>
+          <h1>Clip Launch</h1>
           <p class="hero-tagline">Upload. Schedule. Launch.</p>
-          <p class="lede">Clip Launch is a YouTube publishing automation tool that helps users upload, configure, and schedule videos through the YouTube Data API. It uses Google OAuth 2.0 so authorized users can ask it to perform those publishing actions on their YouTube account.</p>
+          <p class="lede"><strong>Clip Launch is an application that uploads, configures, and schedules videos to a user's own YouTube channel.</strong> It connects to the YouTube Data API on the user's behalf so that video files, titles, descriptions, thumbnails, privacy settings, and publication times can be submitted to YouTube from one place instead of being entered manually for every video.</p>
+          <p class="lede">Clip Launch requests Google OAuth 2.0 authorization because performing these publishing actions on the user's own YouTube channel is the application's core and only purpose.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#what-it-does">Explore the workflow</a>
+            <a class="button button-primary" href="#what-it-does">See what Clip Launch does</a>
             <a class="button button-secondary" href="/privacy/">Read the privacy policy</a>
           </div>
         </div>
         <div class="workflow-card" aria-label="Illustration of a Clip Launch publishing job">
-          <div class="workflow-top"><span>Publishing queue</span><span class="window-dots"><i></i><i></i><i></i></span></div>
+          <div class="workflow-top"><span>Clip Launch — publishing queue</span><span class="window-dots"><i></i><i></i><i></i></span></div>
           <div class="job-panel">
             <div class="job-title"><span>Weekend field notes — 04</span><span class="live-pill">Active</span></div>
             <div class="progress-track"><div class="progress-bar"></div></div>
@@ -54,8 +71,20 @@
               <div class="step is-done"><span class="step-icon">✓</span><span>Thumbnail attached</span></div>
               <div class="step"><span class="step-icon">◷</span><span>Scheduled for YouTube</span></div>
             </div>
-            <div class="card-foot"><span>Native YouTube scheduling</span><span>72%</span></div>
+            <div class="card-foot"><span>Illustration of a publishing job</span><span>72%</span></div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">About this application</p>
+          <h2>What Clip Launch is, in plain terms.</h2>
+          <p>Application name: <strong>Clip Launch</strong> — the same name shown on the Google OAuth consent screen when a user authorizes it. Home page: <strong>https://cliplaunch.net</strong>.</p>
+          <p>Clip Launch is a YouTube publishing automation application. A user signs in with their own Google account, grants Clip Launch permission to manage their YouTube channel, and then hands Clip Launch a video together with its publishing details. Clip Launch submits that video and its settings to YouTube through the YouTube Data API and reports back the resulting video ID and upload status. It does nothing else: there is no advertising, no resale of data, and no functionality unrelated to YouTube publishing.</p>
+          <p>Clip Launch is intended for creators and channel operators who publish videos regularly and want to avoid repeating the same manual upload steps for every video on their own channel.</p>
         </div>
       </div>
     </section>
@@ -65,7 +94,7 @@
         <div class="section-heading">
           <p class="kicker">What Clip Launch does</p>
           <h2>YouTube publishing, made explicit.</h2>
-          <p>Clip Launch is a YouTube publishing automation tool that helps users upload, configure, and schedule videos through the YouTube Data API. It automates repetitive publishing tasks while keeping the user in control of each job.</p>
+          <p>Clip Launch is an application that uploads, configures, and schedules videos to a user's own YouTube channel through the YouTube Data API. It automates repetitive publishing tasks while keeping the user in control of each job.</p>
         </div>
         <div class="feature-grid">
           <article class="feature-card"><div class="feature-number">01 / UPLOAD</div><h3>Upload video files</h3><p>Send the user's video files to their authorized YouTube channel.</p></article>
@@ -86,7 +115,7 @@
           <p>The workflow is simple: the user authorizes access, supplies the publishing details, and Clip Launch sends the requested operations to YouTube.</p>
         </div>
         <div class="feature-grid">
-          <article class="feature-card"><div class="feature-number">01 / AUTHORIZE</div><h3>Connect with Google OAuth 2.0</h3><p>The user authorizes Clip Launch to access the YouTube account they choose.</p></article>
+          <article class="feature-card"><div class="feature-number">01 / AUTHORIZE</div><h3>Connect with Google OAuth 2.0</h3><p>The user authorizes Clip Launch to access the YouTube account they choose. The consent screen shows the application name Clip Launch.</p></article>
           <article class="feature-card"><div class="feature-number">02 / PREPARE</div><h3>Provide the publishing details</h3><p>The user supplies a video, thumbnail, title, description, privacy setting, and optional schedule.</p></article>
           <article class="feature-card"><div class="feature-number">03 / PUBLISH</div><h3>Send authorized operations</h3><p>Clip Launch performs the requested upload and configuration operations through the YouTube Data API.</p></article>
           <article class="feature-card"><div class="feature-number">04 / CONFIRM</div><h3>Return the result</h3><p>YouTube stores and publishes the video according to the configured settings, and Clip Launch retrieves relevant status information.</p></article>
@@ -97,10 +126,11 @@
     <section class="section section-tint" id="why-youtube">
       <div class="container api-grid">
         <div class="api-copy">
-          <p class="kicker">Why Clip Launch connects to YouTube</p>
+          <p class="kicker">Why Clip Launch requests YouTube access</p>
           <h2>Authorization is required to publish.</h2>
-          <p>Clip Launch uses Google OAuth 2.0 to let the user authorize access to their YouTube account. The authorization is not requested merely for account login: it is required because Clip Launch's core purpose is to perform user-requested YouTube publishing operations.</p>
-          <p>With the permission granted, Clip Launch uses the YouTube Data API to upload videos, modify video metadata, assign thumbnails, configure privacy and scheduling settings, and retrieve relevant video information.</p>
+          <p>Clip Launch uses Google OAuth 2.0 to let the user authorize access to their own YouTube account. The authorization is not requested merely for account login: it is required because Clip Launch's core purpose is to perform user-requested YouTube publishing operations on that account.</p>
+          <p>With the permission granted, Clip Launch uses the YouTube Data API to upload videos, modify video metadata, assign thumbnails, configure privacy and scheduling settings, and retrieve relevant video information. Access can be revoked at any time from the <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions page</a>.</p>
+          <p>Clip Launch's use of information received from Google APIs complies with the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
         </div>
         <div class="api-list">
           <div class="list-item">Upload videos</div>
@@ -109,6 +139,16 @@
           <div class="list-item">Set privacy and scheduling</div>
           <div class="list-item">Retrieve uploaded video IDs</div>
           <div class="list-item">Check upload status</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">Contact</p>
+          <h2>Questions about Clip Launch.</h2>
+          <p>Clip Launch is operated by the developer of this application and reachable at <a data-contact-email href="mailto:contact@cliplaunch.net">contact@cliplaunch.net</a>. See the <a href="/privacy/">privacy policy</a> and <a href="/terms/">terms of service</a> for how the application handles data and the conditions of use.</p>
         </div>
       </div>
     </section>
