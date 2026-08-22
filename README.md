@@ -1,6 +1,6 @@
-# ClipLaunch public website
+# Clip Launch public website
 
-Small static website for ClipLaunch, a privately operated YouTube publishing automation tool. It is designed for direct deployment to Cloudflare Pages and does not require a build step, server, database, or environment variables.
+Small static website for Clip Launch, a privately operated YouTube publishing automation tool. It is designed for direct deployment to Cloudflare Pages and does not require a build step, server, database, or environment variables.
 
 ## Preview locally
 
