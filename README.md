@@ -32,12 +32,12 @@ If you prefer a one-time upload, choose **Workers & Pages → Create application
 In the Cloudflare Pages project, open **Custom domains → Set up a custom domain**, enter `cliplaunch.net`, and follow the DNS instructions. After the domain is active, confirm these public URLs:
 
 - `https://cliplaunch.net/`
-- `https://cliplaunch.net/privacy`
-- `https://cliplaunch.net/terms`
+- `https://cliplaunch.net/privacy/`
+- `https://cliplaunch.net/terms/`
 
 ## Google Auth Platform values
 
 - Application homepage: `https://cliplaunch.net`
-- Privacy policy: `https://cliplaunch.net/privacy`
-- Terms of service: `https://cliplaunch.net/terms`
+- Privacy policy: `https://cliplaunch.net/privacy/`
+- Terms of service: `https://cliplaunch.net/terms/`
 - Authorized domain: `cliplaunch.net`

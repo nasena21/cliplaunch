@@ -24,8 +24,8 @@
       <a class="brand" href="/" aria-label="ClipLaunch home"><img src="/assets/cliplaunch-logo.png" alt=""><span>ClipLaunch</span></a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="/" aria-current="page">Home</a>
-        <a href="/privacy">Privacy</a>
-        <a href="/terms">Terms</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
       </nav>
     </div>
   </header>
@@ -36,10 +36,10 @@
         <div>
           <p class="eyebrow">Private YouTube publishing tool</p>
           <h1>Upload.<br><span>Schedule.</span><br>Launch.</h1>
-          <p class="lede">ClipLaunch simplifies the repetitive parts of publishing videos to YouTube, so each upload is ready to go with less manual work.</p>
+          <p class="lede">ClipLaunch is a YouTube publishing automation tool that helps users upload, configure, and schedule videos through the YouTube Data API.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#what-it-does">Explore the workflow</a>
-            <a class="button button-secondary" href="/privacy">Read the privacy policy</a>
+            <a class="button button-secondary" href="/privacy/">Read the privacy policy</a>
           </div>
         </div>
         <div class="workflow-card" aria-label="Illustration of a ClipLaunch publishing job">
@@ -62,27 +62,44 @@
     <section class="section" id="what-it-does">
       <div class="container">
         <div class="section-heading">
-          <p class="kicker">The practical stuff</p>
-          <h2>Less repetitive publishing work.</h2>
-          <p>ClipLaunch is a private/internal application designed to help its owner manage YouTube publishing jobs with a consistent workflow.</p>
+          <p class="kicker">What ClipLaunch does</p>
+          <h2>YouTube publishing, made explicit.</h2>
+          <p>ClipLaunch is a YouTube publishing automation tool that helps users upload, configure, and schedule videos through the YouTube Data API. It automates repetitive publishing tasks while keeping the user in control of each job.</p>
         </div>
         <div class="feature-grid">
-          <article class="feature-card"><div class="feature-number">01 / UPLOAD</div><h3>Send videos to YouTube</h3><p>Upload video files and keep the publishing process moving from one place.</p></article>
-          <article class="feature-card"><div class="feature-number">02 / CONFIGURE</div><h3>Set the details</h3><p>Prepare titles, descriptions, thumbnails, and privacy settings before publishing.</p></article>
-          <article class="feature-card"><div class="feature-number">03 / SCHEDULE</div><h3>Choose the timing</h3><p>Use YouTube's native scheduling system to set the intended publication time.</p></article>
-          <article class="feature-card"><div class="feature-number">04 / TRACK</div><h3>Keep the result</h3><p>Retrieve uploaded video IDs and upload status for the jobs handled through ClipLaunch.</p></article>
-          <article class="feature-card"><div class="feature-number">05 / ORGANIZE</div><h3>Manage publishing jobs</h3><p>Work through multiple publishing jobs without repeating the same setup each time.</p></article>
-          <article class="feature-card"><div class="feature-number">06 / FOCUS</div><h3>Stay lightweight</h3><p>No analytics suite or social platform layer—just the parts needed for publishing.</p></article>
+          <article class="feature-card"><div class="feature-number">01 / UPLOAD</div><h3>Upload video files</h3><p>Send the user's video files to their authorized YouTube channel.</p></article>
+          <article class="feature-card"><div class="feature-number">02 / CONFIGURE</div><h3>Set titles and descriptions</h3><p>Prepare the metadata that accompanies each YouTube video.</p></article>
+          <article class="feature-card"><div class="feature-number">03 / THUMBNAILS</div><h3>Assign custom thumbnails</h3><p>Upload the thumbnail selected by the user for the publishing job.</p></article>
+          <article class="feature-card"><div class="feature-number">04 / PRIVACY</div><h3>Configure privacy</h3><p>Set the video's privacy status as requested by the user.</p></article>
+          <article class="feature-card"><div class="feature-number">05 / SCHEDULE</div><h3>Schedule publication</h3><p>Use YouTube's native scheduling system for future publication.</p></article>
+          <article class="feature-card"><div class="feature-number">06 / TRACK</div><h3>Retrieve upload information</h3><p>Return uploaded video IDs and upload status for jobs handled through ClipLaunch.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section section-tint" id="google-integration">
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-heading">
+          <p class="kicker">How it works</p>
+          <h2>From authorization to publication.</h2>
+          <p>The workflow is simple: the user authorizes access, supplies the publishing details, and ClipLaunch sends the requested operations to YouTube.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-number">01 / AUTHORIZE</div><h3>Connect with Google OAuth 2.0</h3><p>The user authorizes ClipLaunch to access the YouTube account they choose.</p></article>
+          <article class="feature-card"><div class="feature-number">02 / PREPARE</div><h3>Provide the publishing details</h3><p>The user supplies a video, thumbnail, title, description, privacy setting, and optional schedule.</p></article>
+          <article class="feature-card"><div class="feature-number">03 / PUBLISH</div><h3>Send authorized operations</h3><p>ClipLaunch performs the requested upload and configuration operations through the YouTube Data API.</p></article>
+          <article class="feature-card"><div class="feature-number">04 / CONFIRM</div><h3>Return the result</h3><p>YouTube stores and publishes the video according to the configured settings, and ClipLaunch retrieves relevant status information.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="why-youtube">
       <div class="container api-grid">
         <div class="api-copy">
-          <p class="kicker">Google &amp; YouTube integration</p>
-          <h2>Access is explicit and focused.</h2>
-          <p>ClipLaunch uses Google OAuth 2.0 and the YouTube Data API to perform actions the account owner authorizes. It only requests access needed for the YouTube publishing features described here.</p>
+          <p class="kicker">Why ClipLaunch connects to YouTube</p>
+          <h2>Authorization is required to publish.</h2>
+          <p>ClipLaunch uses Google OAuth 2.0 to let the user authorize access to their YouTube account. The authorization is not requested merely for account login: it is required because ClipLaunch's core purpose is to perform user-requested YouTube publishing operations.</p>
+          <p>With the permission granted, ClipLaunch uses the YouTube Data API to upload videos, modify video metadata, assign thumbnails, configure privacy and scheduling settings, and retrieve relevant video information.</p>
         </div>
         <div class="api-list">
           <div class="list-item">Upload videos</div>
@@ -98,7 +115,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-row"><p>© 2026 ClipLaunch</p><div class="footer-links"><a href="/privacy">Privacy Policy</a><a href="/terms">Terms of Service</a><a data-contact-email href="mailto:contact@cliplaunch.net">contact@cliplaunch.net</a></div></div>
+    <div class="container footer-row"><p>© 2026 ClipLaunch</p><div class="footer-links"><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Service</a><a data-contact-email href="mailto:contact@cliplaunch.net">contact@cliplaunch.net</a></div></div>
   </footer>
   <script src="/assets/site-config.js"></script>
 </body>
